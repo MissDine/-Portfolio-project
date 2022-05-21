@@ -3,14 +3,16 @@ padding:0;
 font-family: Arial, Helvetica, sans-serif;
 } 
 .container{
-    background-image: url("./porrt.jpg");
+    background-image: url("./porttt.jpg");
     background-size: cover;
     height: 100vh;
     background-position: center;
+    margin: auto;
 }
 ul{
     list-style: none;
     float: right;
+    margin-top: 30px;
 }
 ul li{
     display: inline-block;
@@ -18,7 +20,46 @@ ul li{
 }
 ul li a{
     text-decoration: none;
-    color: white;
+    color: orange;
     padding: 5px 20px;
-    border: 1px solid #fff ;
+    border: 2px solid transparent ;
+    transition: 0.6s ease;
+    font-size: 25px;
+    font-weight: 900;
+}
+ul li a:hover{
+    background-color: orange;
+    color:white;
+}
+ul li .active a{
+    background-color: orange;
+    color:white;
+}
+.logo img{
+    float:left;
+    width: 150px;
+    height: auto;
+}
+.title{
+   position: absolute;
+   top: 20%;
+   left:2%;
+}
+.title h1{
+    color: orange;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 900;
+}
+p{
+    font-size: 25px;
+    color: white;
+    font-weight: 900;
+    font-style: normal; 
+}
+span{
+    font-size: 45px;
+    color: maroon;
+    font-weight: 900;
+    font-style: normal;
 }
